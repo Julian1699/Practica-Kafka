@@ -13,7 +13,7 @@ public class ProducerService {
     private KafkaTemplate<String,String> kafkaTemplate;
 
     public void sendMessage(String message){
-        kafkaTemplate.send("topic",message).whenComplete((result,ex) -> {
+        kafkaTemplate.send("topic01",message).whenComplete((result,ex) -> {
             if(ex != null){
                 log.error("Error, al enviar el mensaje: {}",ex.getMessage());
             }
