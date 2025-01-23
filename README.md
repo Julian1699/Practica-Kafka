@@ -2,6 +2,8 @@
 
 Este proyecto implementa un flujo completo de **Productor** y **Consumidor** de mensajes utilizando **Apache Kafka** y **Spring Boot**. Se ilustra cómo crear y configurar tópicos, producir mensajes y consumirlos, incluyendo el uso de interceptores para procesar o filtrar la información recibida.
 
+![image](https://github.com/user-attachments/assets/eabc7a30-8497-4fe5-bda6-f9a69811a1fc)
+
 ---
 
 ## Descripción General
