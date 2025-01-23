@@ -6,6 +6,8 @@ Este proyecto implementa un flujo completo de **Productor** y **Consumidor** de 
 
 ---
 
+![kafka-ilustracion](https://github.com/user-attachments/assets/a16fb376-6790-47d5-9117-11841c871252)
+
 ## Descripción General
 
 - **Productor (Producer)**:
