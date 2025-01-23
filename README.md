@@ -85,23 +85,23 @@ Probar el Envío de Mensajes
 a. Envío de Mensajes con Palabra Normal
 Usando Postman, cURL o similar, envía un POST al Productor:
 
-bash
-Copy
+```bash
 POST http://localhost:8000/producer
 Body (JSON):
 {
   "message": "Mensaje del productor para los que quieran escucharlo"
 }
 Si todo funciona, el Productor enviará el mensaje a topic01 y se reflejará en los logs del Consumidor.
+```
 
 b. Envío de Mensajes con Palabra Interceptar
 El Consumidor cuenta con un interceptor que revisa si la palabra "interceptar" aparece en el texto. Envía un mensaje que la contenga, por ejemplo:
 
-bash
-Copy
+```bash
 POST http://localhost:8000/producer
 Body (JSON):
 {
   "message": "Mensaje con la palabra interceptar"
 }
 En los logs del Consumidor verás un mensaje indicando que el contenido fue interceptado.
+```
