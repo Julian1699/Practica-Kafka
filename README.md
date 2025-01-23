@@ -67,7 +67,7 @@ Este proyecto implementa un flujo completo de **Productor** y **Consumidor** de 
 
 ## Uso y Pruebas
 
-En esta sección aprenderás a levantar el entorno de Kafka (mediante Docker Compose) y a probar el flujo completo de envío y recepción de mensajes entre el Productor y el Consumidor.
+Para levantar el proyecto, primero se debe ejecutar el comando "docker-compose up" para que se levanten los 3 contenedores para que el kafka funcione sin inconvenientes y despues si pueden ser ejecutado los proyectos del springboot para poder consumir los endpoints. 
 
 ### 1. Ejecutar Docker Compose
 
